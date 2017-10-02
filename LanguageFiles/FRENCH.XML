@@ -1,0 +1,51 @@
+<status_log>Journal d'état</status_log>
+<global_settings>Paramètres globaux</global_settings>
+<loot_settings>Paramètres Loot</loot_settings>
+<rarity_settings>Rareté minimum:</rarity_settings>
+<fish_colors>Or | Bleu | Vert | Blanc | Spécial seulement</fish_colors>
+<fish_default_color>Bleu</fish_default_color>
+<fish_color_tip>Ramassez des objets qui sont égaux ou supérieurs à la rareté.</fish_color_tip>
+<silver_key>Loot Silver Key</silver_key>
+<silver_key_tip>Prenez Silverkey.(Ignore la rareté minimale)</silver_key_tip>
+<relic>Loot Ancient Relic</relic>
+<relic_tip>Ramassez les anciennes reliques. (Ignore la rareté minimale)</relic_tip>
+<coel>Loot Coelacanth</coel>
+<coel_tip>Ramenez Coealacanth.(Ignore la rareté minimale)</coel_tip>
+<event>Loot événement</event>
+<event_tip>Choisissez les éléments de l'événement.(Ignore la rareté minimale) [Vous pouvez ajouter de nouveaux éléments pairs en ajoutant un .bmp ou .png à res / event]</event_tip>
+<trash>Loot Trash</trash>
+<trash_tip>Voulez-vous retirer des ordures? Êtes-vous sûr? (Perdre des objets de rareté blanche avec quantité)</trash_tip>
+<side_functions>Fonctions latérales</side_functions>
+<feed_worker>Activer Feed Worker</feed_worker>
+<worker_tip>Alimente les travailleurs toutes les 90 minutes.Assurez-vous d'avoir de la bière dans l'inventaire.</worker_tip>
+<interval_tip>Intervalle en quelques minutes.</interval_tip>
+<interval>Intervalle:</interval>
+<test>Tester</test>
+<enable_buffs>Activer BuffKeys</enable_buffs>
+<buffkeys>Clés:</buffkeys>
+<side_functions_on>Fonctionnalités latérales</side_functions_on>
+<cl_settings>Paramètres du client</cl_settings>
+<cl_name>Nom</cl_name>
+<cl_lang>Langue</cl_lang>
+<rarity_tip>Ramassez des objets qui sont égaux ou supérieurs à la rareté.</rarity_tip>
+<log>Activer le journal</log>
+<screencap>Activer le goujon d'écran</screencap>
+<relic_reserve>Activer la réservation pour les reliques, à réserver (si activé):</relic_reserve>
+<dry>Paramètres de séchage</dry>
+<dry_fish>Activer le séchage du poisson</dry_fish>
+<dry_tip>Sera le poisson sec lorsque l'inventaire est presque plein.Les machines à sous vides seront automatiquement évaluées après.</dry_tip>
+<dry_rarity>Max Rarité:</dry_rarity>
+<dry_colors>Blanc | Vert | Bleu | Or</dry_colors>
+<dry_default_color>blanc</dry_default_color>
+<dry_max_rarity>La rareté maximale à utiliser pour le séchage.</dry_max_rarity>
+<inven_settings>Inventory_Settings</inven_settings>
+<discard_rods>Barres de rejet</discard_rods>
+<discard_tip>Rejete les instruments de pêche à usage unique. (Ceux qui ne peuvent être réparés)</discard_tip>
+<buffer>Taille:</buffer>
+<stats>Tab_Stats</stats>
+<stats_tip>| Session | Total |</stats_tip>
+<b_save>Enregistrer</b_save>
+<b_fish>Pêcher [F4]</b_fish>
+<b_mini>Minigame [F5]</b_mini>
+<b_quit>Quittez [CTRL + F1]</b_quit>
+<b_pause>Un / Pause [F3]</b_pause>

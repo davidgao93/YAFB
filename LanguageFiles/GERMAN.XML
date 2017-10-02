@@ -1,0 +1,51 @@
+<status_log>Statusprotokoll</status_log>
+<global_settings>Globale Einstellungen</global_settings>
+<loot_settings>Beute-Einstellungen</loot_settings>
+<rarity_settings>Minimale Rarität:</rarity_settings>
+<fish_colors>Gold | Blau | Grün | Weiß | Nur Angebote</fish_colors>
+<fish_default_color>Blau</fish_default_color>
+<fish_color_tip>Abholung von Gegenständen, die gleich oder höher sind Rarität.</fish_color_tip>
+<silver_key>Loot Silver Key</silver_key>
+<silver_key_tip>Heben Sie Silverkey auf.(Ignoriert minimale Rarität)</silver_key_tip>
+<relic>Loot Ancient Relic</relic>
+<relic_tip>Heben Sie alte Relikte auf. (Ignoriert minimale Rarität)</relic_tip>
+<coel>Beute Coelacanth</coel>
+<coel_tip>Abholen Coealacanth.(Ignoriert minimale Rarität)</coel_tip>
+<event>Loot Event Items</event>
+<event_tip>Abholung von Event-Items. (Ignoriert minimale Rarität) [Sie können neue, gerade Elemente hinzufügen, indem Sie eine abgeschnittene .bmp oder .png zu res / event]</event_tip>
+<trash>Loot Trash</trash>
+<trash_tip>Möchtest du Müll abholen? Bist du sicher?(Wird plündern weiße Raritäten mit Menge)</trash_tip>
+<side_functions>Seitenfunktionen</side_functions>
+<feed_worker>Feed Worker</feed_worker>
+<worker_tip>Wird alle 90 Minuten füttern. Achten Sie darauf, Bier im Inventar zu haben.</worker_tip>
+<interval_tip>Intervall in Minuten.</interval_tip>
+<interval>Intervall:</interval>
+<test>Test</test>
+<enable_buffs>BuffKeys aktivieren</enable_buffs>
+<buffkeys>Keys:</buffkeys>
+<side_functions_on>Nebenfunktionen nur</side_functions_on>
+<cl_settings>Client-Einstellungen</cl_settings>
+<cl_name>Kundenname</cl_name>
+<cl_lang>Client-Sprache</cl_lang>
+<rarity_tip>Abholung von Gegenständen, die gleich oder höher sind Rarität.</rarity_tip>
+<log>Logfile aktivieren</log>
+<screencap>Enablecap Loot aktivieren</screencap>
+<relic_reserve>Reservierung von Slots für Reliquien, Slots zu reservieren:</relic_reserve>
+<dry>Trocknungseinstellungen</dry>
+<dry_fish>Trocknen</dry_fish>
+<dry_tip>Trocknet Fisch, wenn Inventar fast voll ist.Leere Steckplätze werden automatisch ausgewertet.</dry_tip>
+<dry_rarity>Max Rarität:</dry_rarity>
+<dry_colors>Weiß | Grün | Blau | Gold</dry_colors>
+<dry_default_color>Weiß</dry_default_color>
+<dry_max_rarity>Maxmum Rarität zum Trocknen verwenden.</dry_max_rarity>
+<inven_settings>Inventory_Settings</inven_settings>
+<discard_rods>Enable Discard Rods</discard_rods>
+<discard_tip>Verwerfen Einweg-Angelruten. (Die können nicht repariert werden)</discard_tip>
+<buffer>Puffergröße:</buffer>
+<stats>Tab_Stats</stats>
+<stats_tip>| Session | gesamt |</stats_tip>
+<b_save>Einstellungen</b_save>
+<b_fish>Beginnen [F4]</b_fish>
+<b_mini>Minigame lösen [F5]</b_mini>
+<b_quit>Beenden [CTRL + F1]</b_quit>
+<b_pause>Un / Pause [F3]</b_pause>
