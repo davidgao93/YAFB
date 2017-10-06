@@ -24,12 +24,12 @@ Func _ImageSearchStartup()
 	If $sOSArch = "X86" Or $sAutoItX64 = 0 Then
 		cr("+>" & "@OSArch=" & $sOSArch & @TAB & "@AutoItX64=" & $sAutoItX64 & @TAB & "therefore using x32 ImageSearch DLL")
 ;~ 		TrayTip("","@OSArch=" & $sOSArch & @TAB & "@AutoItX64=" & $sAutoItX64 & @TAB & "ImageSearchDLLx32.dll", 5)
-		$h_ImageSearchDLL = DllOpen("ImageSearchDLLx32.dll")
+		$h_ImageSearchDLL = DllOpen("dll\ImageSearchDLLx32.dll")
 		If $h_ImageSearchDLL = -1 Then Return "DllOpen failure"
 	ElseIf $sOSArch = "X64" And $sAutoItX64 = 1 Then
 		cr("+>" & "@OSArch=" & $sOSArch & @TAB & "@AutoItX64=" & $sAutoItX64 & @TAB & "therefore using x64 ImageSearch DLL")
 ;~ 		TrayTip("","@OSArch=" & $sOSArch & @TAB & "@AutoItX64=" & $sAutoItX64 & @TAB & "ImageSearchDLLx64.dll", 5)
-		$h_ImageSearchDLL = DllOpen("ImageSearchDLLx64.dll")
+		$h_ImageSearchDLL = DllOpen("dll\ImageSearchDLLx64.dll")
 		If $h_ImageSearchDLL = -1 Then Return "DllOpen failure"
 	Else
 		Return "Inconsistent or incompatible Script/Windows/CPU Architecture"

@@ -107,9 +107,9 @@ Func InitFFDll()
 		$FFLastSnapStatus[$i] = 0
 		Next
 	If @AutoItX64 Then
-		Global $DllName = "FastFind64.dll"
+		Global $DllName = "dll\FastFind64.dll"
 	Else
-		Global $DllName = "FastFind.dll"
+		Global $DllName = "dll\FastFind.dll"
 	Endif
 		$FFDllHandle = DllOpen($DllName)
 	If $FFDllHandle=-1 Then

@@ -11,8 +11,8 @@
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 
 #RequireAdmin
-#include "ImageSearch.au3"
-#include "FastFind.au3"
+#include "dll\ImageSearch.au3"
+#include "dll\FastFind.au3"
 #include <File.au3>
 #include <ButtonConstants.au3>
 #include <ComboConstants.au3>

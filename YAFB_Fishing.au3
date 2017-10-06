@@ -12,10 +12,10 @@
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 
 #RequireAdmin
-#include "ImageSearch.au3"
-#include "FastFind.au3"
-#include "Support.au3"
-#include "GUI.au3"
+#include "dll\ImageSearch.au3"
+#include "dll\FastFind.au3"
+#include "dll\Support.au3"
+#include "gui\GUI.au3"
 #include <File.au3>
 #include <Array.au3>
 #include <GUIConstantsEx.au3>
@@ -516,7 +516,7 @@ EndFunc   ;==>GetState
 Func ReelIn() ; Solves the fishing timing minigame
 	Local Const $ReelIn = "res/fishing/reelin.png"
 	Local $x, $y, $IS, $SSN = 1
-
+	Sleep(Random(500, 2000, 1))
 	CoSe("{SPACE}")
 
 	Local $timer = TimerInit()

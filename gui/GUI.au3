@@ -10,7 +10,7 @@
 #include "MultiLang.au3"
 
 ;Set location of the language files *OPTIONAL*
-Local $LANG_DIR = @ScriptDir & "\LanguageFiles"; Where we are storing the language files.
+Local $LANG_DIR = @ScriptDir & "\gui\LanguageFiles"; Where we are storing the language files.
 
 ;This is the language we will load.  You could load this value from an INI file or saved
 ;location to stop the user having to select a Language every time they run your program.
